@@ -33,7 +33,7 @@
         "Title": "Undertale Red & Yellow",
         "Description": "Undertale but with Little Red Slicing Hood and Clover from Undertale Red & Yellow.",
         "Link": "https://gamejolt.com/games/undertale-red-yellow/877387",
-        "Image": "https://m.gjcdn.net/game-thumbnail/200/877387-crop0_41_640_401-ll-bvzkg5g7-v4.webp"
+        "Image": "https://m.gjcdn.net/game-thumbnail/400/877387-crop0_41_640_401-ll-bvzkg5g7-v4.webp"
     },
     {
         "Title": "Undertale: Kissy Cutie",
@@ -63,6 +63,24 @@
         "Title": "DELTATRAVELER",
         "Description": "A DELTARUNE fan game based on the 'GOD DAMNIT KRIS WHERE THE HELL ARE WE' meme.",
         "Link": "https://gamejolt.com/games/deltatraveler/661464",
-        "Image": "https://m.gjcdn.net/game-thumbnail/200/661464-adp7hz5i-v4.webp"
+        "Image": "https://m.gjcdn.net/game-thumbnail/400/661464-adp7hz5i-v4.webp"
+    },
+    {
+        "Title": "Undertale Soul Randomizer",
+        "Description": "An UNDERTALE mod that shuffles SOUL modes every encounter.",
+        "Link": "https://gamejolt.com/games/undertalerngsoul/839930",
+        "Image": "https://m.gjcdn.net/game-thumbnail/400/839930-crop0_138_960_678-ll-ga6mavbk-v4.webp"
+    },
+    {
+        "Title": "Undertale Plus",
+        "Description": "An UNDERTALE mod that allows for a fully customizable user experience, including widescreen, colored battle sprites, etc.",
+        "Link": "https://gamejolt.com/games/undertaleplus/895064",
+        "Image": "https://m.gjcdn.net/game-thumbnail/400/895064-ay5x48w2-v4.webp"
+    },
+    {
+        "Title": "IF- STARDOM",
+        "Description": "An HTML visual novel based off a not well known AU called SOLARTALE.",
+        "Link": "https://itch.io/games/tag-undertale",
+        "Image": "https://img.itch.zone/aW1nLzE0MjY4MTczLnBuZw==/315x250%23c/LrwyPl.png"
     }
 ]
