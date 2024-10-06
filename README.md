@@ -14,7 +14,7 @@
 <h3 style="font-family: 'Determination', monospace; color: white;">Suggesting Mods</h3>
 <ol style="font-family: 'Determination', monospace; color: white; background-color: black; padding: 10px; border: 2px solid white;">
     <li>Head over to the <strong>Issues</strong> tab.</li>
-    <li>Create a new issue with the mod's title, description, link, and (if possible) an image.</li>
+    <li>Create a new issue with the mod's title, description, link, an image, and platforms the mod can be played on.</li>
 </ol>
 
 <h3 style="font-family: 'Determination', monospace; color: white;">Adding Mods Directly</h3>
@@ -25,7 +25,8 @@
     "Title": "Mod Name",
     "Description": "A short description of the mod.",
     "Link": "URL of the mod",
-    "Image": "URL of the mod's image"
+    "Image": "URL of the mod's image",
+    "Platform": "Platforms supported by the mod"
 }</pre>
     </li>
     <li>Submit a pull request with your changes.</li>
