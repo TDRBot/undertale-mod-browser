@@ -55,13 +55,26 @@
           font-family: Determination;
           src: url("https://tdrbot.github.io/undertale-mod-browser/main.ttf");
         }
+        button {
+            background-color:black;
+            border: solid 2px orange;
+            font-family:Determination;
+            color:orange;
+            width:90px;
+            height:40px;
+            text-align:center;
+    }
+    button:hover {
+        color:yellow;
+        border: solid 2px yellow;
+    }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="modbrowser.png" alt="UNDERTALE Mod Browser">
         <p>Browse UNDERTALE mods using this tool! (The Database is being developed, any help for suggesting mods would be greatly appreciated!)</p>
-        <a href="https://github.com/TDRBot/undertale-mod-browser"><img src="GitOctoWhite.png" width="40px" alt="GitHub Page"></a>
+        <a href="https://github.com/TDRBot/undertale-mod-browser"><img src="GitOctoWhite.png" width="40px" alt="GitHub Page"></a> <button onclick="pcMod()">PC Mods</button> <button onclick="htmlMod()">HTML Mods</button> <button onclick="androidMod()">Android Mods</button>
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Search for mods..." onkeyup="searchMods()">
         </div>
@@ -107,5 +120,22 @@
 
         window.onload = fetchMods;
     </script>
+    <script>
+        function pcMod() {
+            
+  const searchbar = document.getElementById("searchInput");
+  searchbar.value = "PC";
+        }
+        function htmlMod() {
+            
+  const searchbar = document.getElementById("searchInput");
+  searchbar.value = "HTML";
+        }
+        function androidMod() {
+            
+  const searchbar = document.getElementById("searchInput");
+  searchbar.value = "Android";
+        }
+</script>
 </body>
 </html>
