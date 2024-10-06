@@ -28,5 +28,41 @@
         "Description": "A fan-made sequel to UNDERTALE made in RPG Maker.",
         "Link": "https://pep.itch.io/undertale-2",
         "Image": "https://img.itch.zone/aW1nLzI5ODUzMDIucG5n/315x250%23c/AD8Tgc.png"
-    }
+    },
+    {
+        "Title": "Undertale Red &amp; Yellow",
+        "Description": "Undertale but with Little Red Slicing Hood and Clover from Undertale Red &amp; Yellow.",
+        "Link": "https://gamejolt.com/games/undertale-red-yellow/877387",
+        "Image": "https://m.gjcdn.net/game-thumbnail/200/877387-crop0_41_640_401-ll-bvzkg5g7-v4.webp"
+    },
+    {
+        "Title": "Undertale: Kissy Cutie",
+        "Description": "Undertale but as a dating simulator.",
+        "Link": "https://xocolatl-games.itch.io/undertale-kc",
+        "Image": "https://img.itch.zone/aW1nLzIwNDg5NjUuanBn/315x250%23c/oyTLEq.jpg"
+    },
+    {
+        "Title": "Runetale",
+        "Description": "A proof-of-concept of Undertale if playable through Chara's POV.",
+        "Link": "https://genevra.itch.io/runetale",
+        "Image": "https://img.itch.zone/aW1nLzI4NjM3NjkuanBn/315x250%23c/uBnJpi.jpg"
+    },
+    {
+        "Title": "Undertale: Last Breath",
+        "Description": "An AU if Sans swore to his last breath to pull out all the stops to end your rampage.",
+        "Link": "https://gamejolt.com/games/ULB/424292",
+        "Image": "https://m.gjcdn.net/content/700/17943526-ll-xgyhustm-v4.webp"
+    },
+    {
+        "Title": "M00NZYTALE",
+        "Description": "An UNDERTALE-Inspired fan-game if an alien creature from the moon fell into a world of insects.",
+        "Link": "https://gamejolt.com/games/fckmelnitsa/793109",
+        "Image": "https://m.gjcdn.net/game-thumbnail/400/793109-crop200_0_1977_1000-9wgw7kki-v4.webp"
+    },
+    {
+        "Title": "DELTATRAVELER",
+        "Description": "A DELTARUNE fangame based off the 'GOD DAMNIT KRIS WHERE THE HELL ARE WE' meme.",
+        "Link": "https://gamejolt.com/games/deltatraveler/661464",
+        "Image": "https://m.gjcdn.net/game-thumbnail/200/661464-adp7hz5i-v4.webp"
+    },
 ]
