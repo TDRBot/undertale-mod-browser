@@ -80,7 +80,19 @@
     {
         "Title": "IF- STARDOM",
         "Description": "An HTML visual novel based off a not well known AU called SOLARTALE.",
-        "Link": "https://itch.io/games/tag-undertale",
+        "Link": "https://repreptiles.itch.io/solartale",
         "Image": "https://img.itch.zone/aW1nLzE0MjY4MTczLnBuZw==/315x250%23c/LrwyPl.png"
+    },
+    {
+        "Title": "DeltaTale",
+        "Description": "Literally just a battle against Kris, there is nothing else to say.",
+        "Link": "https://basedace.itch.io/deltatale",
+        "Image": "https://img.itch.zone/aW1nLzQ3MTA3NjAucG5n/315x250%23c/jdxGMU.png"
+    },
+    {
+        "Title": "SB!Dusttale",
+        "Description": "A prototype of a sub-AU of Dusttale.",
+        "Link": "https://gasbillt.itch.io/sbdusttale",
+        "Image": "https://img.itch.zone/aW1nLzE1MDEyMjkxLnBuZw==/315x250%23c/astNfz.png"
     }
 ]
