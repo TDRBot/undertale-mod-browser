@@ -11,6 +11,7 @@
             font-family: Determination;
             margin: 0;
             padding: 20px;
+            image-rendering: pixelated;
         }
         .container {
             max-width: 1200px;
@@ -22,6 +23,7 @@
         .search-bar {
             text-align: center;
             margin-bottom: 20px;
+            font-family: Determination;
         }
         input[type="text"] {
             padding: 10px;
@@ -58,12 +60,11 @@
     <div class="container">
         <img src="modbrowser.png" alt="UNDERTALE Mod Browser">
         <p>Browse UNDERTALE mods using this tool! (The Database is being developed, any help for suggesting mods would be greatly appreciated!)</p>
+        <a href="https://github.com/TDRBot/undertale-mod-browser"><img src="GitOctoWhite.png" width="40px" alt="GitHub Page"></a>
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Search for mods..." onkeyup="searchMods()">
         </div>
         <div class="mod-grid" id="modGrid"></div>
-        <br>
-        <a href="https://github.com/TDRBot/undertale-mod-browser"><img src="GitOctoWhite.png" width="100px" alt="GitHub Page"></a>
     </div>
 
     <script>
