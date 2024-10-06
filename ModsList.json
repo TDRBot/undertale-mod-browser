@@ -1,13 +1,13 @@
 [
     {
         "Title": "Undertale Yellow",
-        "Description": "A fan-made prequel to Undertale, lead by MasterSwordRemix.",
+        "Description": "A fan-made prequel to Undertale, led by MasterSwordRemix.",
         "Link": "https://gamejolt.com/games/UndertaleYellow/136925",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/136925-ee65ajxb-v4.webp"
     },
     {
         "Title": "Nighttale",
-        "Description": "A fan-made prequel to Undertale, lead by and developed by TDRP.",
+        "Description": "A fan-made prequel to Undertale, led and developed by TDRP.",
         "Link": "https://tdrp.itch.io/nighttale",
         "Image": "https://img.itch.zone/aW1nLzE3NDExNDE4LnBuZw==/315x250%23c/e9LjPr.png"
     },
@@ -19,7 +19,7 @@
     },
     {
         "Title": "TS!Underswap",
-        "Description": "UNDERTALE, but everyone's positions have been swapped?.",
+        "Description": "UNDERTALE, but everyone's positions have been swapped.",
         "Link": "https://gamejolt.com/games/tsunderswap/160094",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/160094-xrpwmwwi-v4.webp"
     },
@@ -30,8 +30,8 @@
         "Image": "https://img.itch.zone/aW1nLzI5ODUzMDIucG5n/315x250%23c/AD8Tgc.png"
     },
     {
-        "Title": "Undertale Red &amp; Yellow",
-        "Description": "Undertale but with Little Red Slicing Hood and Clover from Undertale Red &amp; Yellow.",
+        "Title": "Undertale Red & Yellow",
+        "Description": "Undertale but with Little Red Slicing Hood and Clover from Undertale Red & Yellow.",
         "Link": "https://gamejolt.com/games/undertale-red-yellow/877387",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/877387-crop0_41_640_401-ll-bvzkg5g7-v4.webp"
     },
@@ -55,14 +55,14 @@
     },
     {
         "Title": "M00NZYTALE",
-        "Description": "An UNDERTALE-Inspired fan-game if an alien creature from the moon fell into a world of insects.",
+        "Description": "An UNDERTALE-inspired fan-game where an alien creature from the moon falls into a world of insects.",
         "Link": "https://gamejolt.com/games/fckmelnitsa/793109",
         "Image": "https://m.gjcdn.net/game-thumbnail/400/793109-crop200_0_1977_1000-9wgw7kki-v4.webp"
     },
     {
         "Title": "DELTATRAVELER",
-        "Description": "A DELTARUNE fangame based off the 'GOD DAMNIT KRIS WHERE THE HELL ARE WE' meme.",
+        "Description": "A DELTARUNE fan game based on the 'GOD DAMNIT KRIS WHERE THE HELL ARE WE' meme.",
         "Link": "https://gamejolt.com/games/deltatraveler/661464",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/661464-adp7hz5i-v4.webp"
-    },
+    }
 ]
