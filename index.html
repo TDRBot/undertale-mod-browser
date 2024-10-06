@@ -32,6 +32,7 @@
             background-color: black;
             color: white;
             width: 80%;
+            font-family: Determination;
         }
         .mod-grid {
             display: grid;
@@ -98,7 +99,8 @@
             const query = document.getElementById('searchInput').value.toLowerCase();
             const filteredMods = modsList.filter(mod => 
                 mod.Title.toLowerCase().includes(query) || 
-                mod.Description.toLowerCase().includes(query)
+                mod.Description.toLowerCase().includes(query) ||
+                mod.Platform.toLowerCase().includes(query)
             );
             displayMods(filteredMods);
         }
