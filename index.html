@@ -71,7 +71,7 @@
             transition: background-color 0.3s, color 0.3s;
         }
         button:hover {
-            border: solid 3px yellow;
+            border: solid 2px yellow;
         }
         .button-row {
             margin-bottom: 20px;
@@ -87,14 +87,16 @@
     <div class="container">
         <img src="modbrowser.png" alt="UNDERTALE Mod Browser" style="width: 100%; margin-bottom: 20px;">
         <p>Browse UNDERTALE mods using this tool! The database is being developed; any help suggesting mods would be greatly appreciated!</p>
-        
+        <p>Important Links</p>
         <div class="button-row">
             <a href="https://github.com/TDRBot/undertale-mod-browser"><button>GitHub Repo</button></a>
+        </div>
+        <p>Platform Searching</p>
+        <div class="button-row">
             <button onclick="pcMod()">PC</button>
             <button onclick="htmlMod()">HTML</button>
             <button onclick="androidMod()">Android</button>
         </div>
-        
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Search for mods..." onkeyup="searchMods()">
         </div>
