@@ -118,6 +118,13 @@
                 <button onclick="htmlMod()">HTML</button>
                 <button onclick="androidMod()">Android</button>
             </div>
+            <p>Control Schemes</p>
+            <div class="button-row">
+                <button onclick="controlsKeyboard()">Keyboard</button>
+                <button onclick="controlsMouse()">Mouse</button>
+                <button onclick="controlsController()">Controller</button>
+                <button onclick="controlsTouchscreen()">Controller</button>
+            </div>
         </div>
 
         <!-- Main Content -->
@@ -152,6 +159,7 @@
                     <h3>${mod.Title}</h3>
                     <p>${mod.Description}</p>
                     <a href="${mod.Link}" target="_blank" style="color: white;">Download</a>
+                    <small>Control Schemes: ${mod.Controls}.</small>
                 `;
                 modGrid.appendChild(modCard);
             });
@@ -163,6 +171,7 @@
                 mod.Title.toLowerCase().includes(query) || 
                 mod.Description.toLowerCase().includes(query) ||
                 (mod.Platform && mod.Platform.toLowerCase().includes(query)) // Check if Platform exists
+                (mod.Controls && mod.Platform.toLowerCase().includes(query)) // just copy and pasted, lmao.
             );
             displayMods(filteredMods);
         }
@@ -181,6 +190,25 @@
 
         function androidMod() {
             document.getElementById("searchInput").value = "Android";
+            searchMods();
+        }
+        function controlsKeyboard() {
+            document.getElementById("searchInput").value = "Keyboard";
+            searchMods();
+        }
+        }
+        function controlsController() {
+            document.getElementById("searchInput").value = "Controller";
+            searchMods();
+        }
+        }
+        function controlsMouse() {
+            document.getElementById("searchInput").value = "Mouse";
+            searchMods();
+        }
+        }
+        function controlsTouchscreen() {
+            document.getElementById("searchInput").value = "Touchscreen";
             searchMods();
         }
     </script>
