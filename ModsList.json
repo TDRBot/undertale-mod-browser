@@ -4,202 +4,231 @@
         "Description": "A fan-made prequel to Undertale, led by MasterSwordRemix.",
         "Link": "https://gamejolt.com/games/UndertaleYellow/136925",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/136925-ee65ajxb-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Nighttale",
         "Description": "A fan-made prequel to Undertale, led and developed by TDRP.",
         "Link": "https://tdrp.itch.io/nighttale",
         "Image": "https://img.itch.zone/aW1nLzE3NDExNDE4LnBuZw==/315x250%23c/e9LjPr.png",
-        "Platform": "PC, HTML"
+        "Platform": "PC, HTML",
+        "Controls": "Keyboard, Controller"
     },
     {
         "Title": "HorrorTale",
         "Description": "A new story years after a neutral route caused by Frisk.",
         "Link": "https://gamejolt.com/games/HorrorTale/527244",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/527244-6viiixnx-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "TS!Underswap",
         "Description": "UNDERTALE, but everyone's positions have been swapped.",
         "Link": "https://gamejolt.com/games/tsunderswap/160094",
         "Image": "https://m.gjcdn.net/game-thumbnail/200/160094-xrpwmwwi-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "UNDERTALE 2",
         "Description": "A fan-made sequel to UNDERTALE made in RPG Maker.",
         "Link": "https://pep.itch.io/undertale-2",
         "Image": "https://img.itch.zone/aW1nLzI5ODUzMDIucG5n/315x250%23c/AD8Tgc.png",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard, Controller"
     },
     {
         "Title": "Undertale Red & Yellow",
         "Description": "Undertale but with Little Red Slicing Hood and Clover from Undertale Red & Yellow.",
         "Link": "https://gamejolt.com/games/undertale-red-yellow/877387",
         "Image": "https://m.gjcdn.net/game-thumbnail/400/877387-crop0_41_640_401-ll-bvzkg5g7-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Undertale: Kissy Cutie",
         "Description": "Undertale but as a dating simulator.",
         "Link": "https://xocolatl-games.itch.io/undertale-kc",
         "Image": "https://img.itch.zone/aW1nLzIwNDg5NjUuanBn/315x250%23c/oyTLEq.jpg",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Mouse"
     },
     {
         "Title": "Runetale",
         "Description": "A proof-of-concept of Undertale if playable through Chara's POV.",
         "Link": "https://genevra.itch.io/runetale",
         "Image": "https://img.itch.zone/aW1nLzI4NjM3NjkuanBn/315x250%23c/uBnJpi.jpg",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Undertale: Last Breath",
         "Description": "An AU if Sans swore to his last breath to pull out all the stops to end your rampage.",
         "Link": "https://gamejolt.com/games/ULB/424292",
         "Image": "https://m.gjcdn.net/content/700/17943526-ll-xgyhustm-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard, Mouse"
     },
     {
-        "Title": "M00NZYTALE",
-        "Description": "An UNDERTALE-inspired fan-game where an alien creature from the moon falls into a world of insects.",
+        "Title": "MOONZYTALE",
+        "Description": "An UNDERTALE-inspired fan-game where an alien creature from the moon falls into a world of insects Based off the Russian animated children's TV show Luntik. (aka Moonzy)",
         "Link": "https://gamejolt.com/games/fckmelnitsa/793109",
         "Image": "https://m.gjcdn.net/game-thumbnail/400/793109-crop200_0_1977_1000-9wgw7kki-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "DELTATRAVELER",
         "Description": "A DELTARUNE fan game based on the 'GOD DAMNIT KRIS WHERE THE HELL ARE WE' meme.",
         "Link": "https://gamejolt.com/games/deltatraveler/661464",
         "Image": "https://m.gjcdn.net/game-thumbnail/400/661464-adp7hz5i-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Undertale Soul Randomizer",
         "Description": "An UNDERTALE mod that shuffles SOUL modes every encounter.",
         "Link": "https://gamejolt.com/games/undertalerngsoul/839930",
         "Image": "https://m.gjcdn.net/game-thumbnail/400/839930-crop0_138_960_678-ll-ga6mavbk-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Undertale Plus",
         "Description": "An UNDERTALE mod that allows for a fully customizable user experience, including widescreen, colored battle sprites, etc.",
         "Link": "https://gamejolt.com/games/undertaleplus/895064",
         "Image": "https://m.gjcdn.net/game-thumbnail/400/895064-ay5x48w2-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "IF- STARDOM",
         "Description": "An HTML visual novel based off a not well known AU called SOLARTALE.",
         "Link": "https://repreptiles.itch.io/solartale",
         "Image": "https://img.itch.zone/aW1nLzE0MjY4MTczLnBuZw==/315x250%23c/LrwyPl.png",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard, Mouse"
     },
     {
         "Title": "DeltaTale",
         "Description": "Literally just a battle against Kris, there is nothing else to say.",
         "Link": "https://basedace.itch.io/deltatale",
         "Image": "https://img.itch.zone/aW1nLzQ3MTA3NjAucG5n/315x250%23c/jdxGMU.png",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "SB!Dusttale",
         "Description": "A prototype of a sub-AU of Dusttale.",
         "Link": "https://gasbillt.itch.io/sbdusttale",
         "Image": "https://img.itch.zone/aW1nLzE1MDEyMjkxLnBuZw==/315x250%23c/astNfz.png",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "UNDER2ALE",
         "Description": "A mock/joke fangame that takes place after the True Pacifist route.",
         "Link": "https://leightoons.itch.io/under2ale",
         "Image": "https://img.itch.zone/aW1nLzIyNzkyMDgucG5n/315x250%23c/B5FHmA.png",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Under-one-minute-Tale",
         "Description": "Literally just walk into objects to complete the game, truly is under one minute.",
         "Link": "https://rrrrroseazerty.itch.io/under-one-minute-tale",
         "Image": "https://img.itch.zone/aW1nLzI3NTkxNjYucG5n/315x250%23c/jsaWhS.png",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard, Mouse, Touchscreen"
     },
     {
         "Title": "Inverted Fate: Fallen Crown",
         "Description": "An AU battle against Toriel from Inverted Fate.",
         "Link": "https://gamejolt.com/games/FallenCrown/567808",
         "Image": "https://img.itch.zone/aW1nLzUwNjI3NDgucG5n/315x250%23c/1YWHAh.png",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Aftertale",
         "Description": "A fangame that takes place after the Genocide route.",
         "Link": "https://leafminted.itch.io/aftertale",
         "Image": "https://img.itch.zone/aW1nLzc5OTg5NDkucG5n/315x250%23c/HOjYGM.png",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Nekotale",
         "Description": "It's literally just the Sans fight but different and against a character that bares some resembalence to Neko Arc.",
         "Link": "https://tenderne55.itch.io/nekotale",
         "Image": "https://img.itch.zone/aW1nLzEzMzExOTQ2LnBuZw==/315x250%23c/Wkts%2FY.png",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Froggittale (Old)",
         "Description": "A buffed battle against a Froggit.",
         "Link": "https://vanouper.itch.io/froggittale-old",
         "Image": "https://img.itch.zone/aW1nLzEzMTY1MzIwLnBuZw==/315x250%23c/umSSXD.png",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard"
     },
     {
         "Title": "PLATFORMTALE",
         "Description": "A fangame where you platform through the Ruins, short demo.",
         "Link": "https://eliseo-arabel.itch.io/platformtale",
         "Image": "https://img.itch.zone/aW1nLzE2NzA2Mzk4LnBuZw==/315x250%23c/vDVVRC.png",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Melomaniac Sans Fight",
         "Description": "A fight against Sans, based off the first episode of Glitchtale.",
         "Link": "https://cross-0673.itch.io/megalomaniac",
         "Image": "https://img.itch.zone/aW1nLzE0NTMzMDIxLnBuZw==/315x250%23c/tKTpLc.png",
-        "Platform": "PC, HTML"
+        "Platform": "PC, HTML",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Bad Time Simulator",
         "Description": "Allows people to practice or play a remake of the Sans fight.",
         "Link": "https://jcw87.github.io/c2-sans-fight/",
         "Image": "https://badtimesimulator.io/upload/cache/upload/imgs/sans-fight-simulator-m190x190.jpg",
-        "Platform": "HTML"
+        "Platform": "HTML",
+        "Controls": "Keyboard"
     },
     {
         "Title": "DETERMINATION",
         "Description": "A game that shows every soul mode and its associated attacks, only available for Android.",
         "Link": "https://bluecore.itch.io/determination",
         "Image": "https://img.itch.zone/aW1hZ2UvMTIxNDU1LzU1OTQ2My5wbmc=/315x250%23c/7xeLG5.png",
-        "Platform": "Android"
+        "Platform": "Android",
+        "Controls": "Touchscreen"
     },
     {
         "Title": "Sans Simulator",
         "Description": "Has 5 different modes, more on the 'hell' side of bullethell..",
         "Link": "https://invalid-anomaly.itch.io/sans-simulator",
         "Image": "https://img.itch.zone/aW1nLzE3NzY2NDY2LnBuZw==/315x250%23c/i2I1DY.png",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Unrelated: Don't Forget",
         "Description": "Uncoevr Sans' and Gaster's past or something.",
         "Link": "https://gamejolt.com/games/unrelated/900875",
         "Image": "https://m.gjcdn.net/fireside-post-image/600/36286094-ll-5hhcsm9q-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     },
     {
         "Title": "Dusttale",
         "Description": "An AU about Sans getting tired of the player doing only genocide runs and decides to kill everyone.",
         "Link": "https://gamejolt.com/games/dusttale/308853",
         "Image": "https://m.gjcdn.net/game-screenshot/600/1157760-ll-tqmbmge7-v4.webp",
-        "Platform": "PC"
+        "Platform": "PC",
+        "Controls": "Keyboard"
     }
 ]
