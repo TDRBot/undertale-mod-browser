@@ -12,30 +12,61 @@
             color: #fff; 
             font-family: 'Determination', sans-serif;
             margin: 0;
-            padding: 20px;
-            image-rendering: pixelated;
+            padding: 0;
+            display: flex;
+            justify-content: center;
         }
         .container {
+            display: flex;
             max-width: 1200px;
-            margin: auto;
+            width: 100%;
             padding: 20px;
-            text-align: center; 
+        }
+        .sidebar {
+            width: 25%;
+            padding: 20px;
+            position: sticky;
+            top: 20px;
+            background-color: #111;
+            height: 100vh;
+            box-sizing: border-box;
+            overflow-y: scroll;
+        }
+        .main-content {
+            width: 75%;
+            padding: 20px;
+            box-sizing: border-box;
         }
         h1 {
-            margin-bottom: 20px;
-            font-size: 2.5em; 
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+            font-size: 2em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
-        .search-bar {
-            margin-bottom: 20px;
-        }
-        input[type="text"] {
+        .search-bar input[type="text"] {
             padding: 10px;
             font-size: 16px;
             border: 2px solid #fff;
             background-color: #222; 
             color: #fff; 
-            width: 80%;
+            width: 90%;
+        }
+        .button-row {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: black;
+            border: 2px solid orange;
+            font-family: 'Determination';
+            color: orange;
+            padding: 10px 15px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            width: 100%;
+        }
+        button:hover {
+            border-color: yellow;
+            color: yellow;
         }
         .mod-grid {
             display: grid;
@@ -47,67 +78,58 @@
             border: 2px solid #fff;
             border-radius: 10px;
             padding: 10px;
-            transition: transform 0.3s; 
+            transition: transform 0.3s;
         }
         .mod-card:hover {
-            transform: translateY(-5px); 
+            transform: translateY(-5px);
         }
         img {
             max-width: 100%;
+            width:100%;
             height: auto;
-            border-radius: 10px;
-        }
-        @font-face {
-            font-family: 'Determination';
-            src: url("https://tdrbot.github.io/undertale-mod-browser/main.ttf");
-        }
-        button {
-            background-color: black;
-            border: 2px solid orange;
-            font-family: 'Determination';
-            color: orange;
-            padding: 10px 15px; 
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        button:hover {
-            border: solid 2px yellow;
-        }
-        .button-row {
-            margin-bottom: 20px;
+            border-radius:10px
         }
         .footer {
             margin-top: 20px;
             font-size: 0.9em;
             color: #bbb;
         }
+        @font-face {
+            font-family: 'Determination';
+            src: url("https://tdrbot.github.io/undertale-mod-browser/main.ttf");
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="modbrowser.png" alt="UNDERTALE Mod Browser" style="width: 100%; margin-bottom: 20px;">
-        <p>Browse UNDERTALE mods using this tool! The database is being developed; any help suggesting mods would be greatly appreciated!</p>
-        <p>Important Links</p>
-        <div class="button-row">
-            <a href="https://github.com/TDRBot/undertale-mod-browser"><button>GitHub Repo</button></a>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <p>Browse UNDERTALE mods using this tool! The database is being developed; any help suggesting mods would be greatly appreciated!</p>
+            <p>Important Links</p>
+            <div class="button-row">
+                <a href="https://github.com/TDRBot/undertale-mod-browser"><button>GitHub Repo</button></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for mods..." onkeyup="searchMods()">
+            </div>
+            <p>Platform Searching</p>
+            <div class="button-row">
+                <button onclick="pcMod()">PC</button>
+                <button onclick="htmlMod()">HTML</button>
+                <button onclick="androidMod()">Android</button>
+            </div>
         </div>
-        <p>Platform Searching</p>
-        <div class="button-row">
-            <button onclick="pcMod()">PC</button>
-            <button onclick="htmlMod()">HTML</button>
-            <button onclick="androidMod()">Android</button>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <img src="modbrowser.png" alt="UNDERTALE Mod Browser" style="width: 100%; margin-bottom: 20px; border-radius:0px;">
+            <div class="mod-grid" id="modGrid"></div>
+            <div class="footer">
+                &copy; 2024 TDRP All rights reserved.
+            </div>
         </div>
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search for mods..." onkeyup="searchMods()">
-        </div>
-        
-        <div class="mod-grid" id="modGrid"></div>
     </div>
-    
-    <div class="footer">
-        &copy; 2024 TDRP All rights reserved.
-    </div>
-    
+
     <script>
         const modsList = []; // Will be populated from ModsList.json
 
@@ -126,7 +148,7 @@
                 modCard.classList.add('mod-card');
 
                 modCard.innerHTML = `
-                    <img src="${mod.Image}" alt="${mod.Title}">
+                    <img src="${mod.Image}" alt="${mod.Title}" style="border-radius: 10px;">
                     <h3>${mod.Title}</h3>
                     <p>${mod.Description}</p>
                     <a href="${mod.Link}" target="_blank" style="color: white;">Download</a>
@@ -148,20 +170,17 @@
         window.onload = fetchMods;
 
         function pcMod() {
-            const searchbar = document.getElementById("searchInput");
-            searchbar.value = "PC";
+            document.getElementById("searchInput").value = "PC";
             searchMods();
         }
 
         function htmlMod() {
-            const searchbar = document.getElementById("searchInput");
-            searchbar.value = "HTML";
+            document.getElementById("searchInput").value = "HTML";
             searchMods();
         }
 
         function androidMod() {
-            const searchbar = document.getElementById("searchInput");
-            searchbar.value = "Android";
+            document.getElementById("searchInput").value = "Android";
             searchMods();
         }
     </script>
