@@ -159,6 +159,7 @@
                     <h3>${mod.Title}</h3>
                     <p>${mod.Description}</p>
                     <a href="${mod.Link}" target="_blank" style="color: white;">Download</a>
+                    <br>
                     <small>Control Schemes: ${mod.Controls}.</small>
                 `;
                 modGrid.appendChild(modCard);
@@ -171,7 +172,7 @@
                 mod.Title.toLowerCase().includes(query) || 
                 mod.Description.toLowerCase().includes(query) ||
                 (mod.Platform && mod.Platform.toLowerCase().includes(query)) // Check if Platform exists
-                (mod.Controls && mod.Platform.toLowerCase().includes(query)) // just copy and pasted, lmao.
+                (mod.Controls && mod.Controls.toLowerCase().includes(query)) // just copy and pasted, lmao.
             );
             displayMods(filteredMods);
         }
