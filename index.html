@@ -171,7 +171,7 @@
             const filteredMods = modsList.filter(mod => 
                 mod.Title.toLowerCase().includes(query) || 
                 mod.Description.toLowerCase().includes(query) ||
-                (mod.Platform && mod.Platform.toLowerCase().includes(query)) // Check if Platform exists
+                (mod.Platform && mod.Platform.toLowerCase().includes(query)) || // Check if Platform exists
                 (mod.Controls && mod.Controls.toLowerCase().includes(query)) // just copy and pasted, lmao.
             );
             displayMods(filteredMods);
